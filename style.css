@@ -1,18 +1,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
-
 /* custom font */
 
-h1 {
-  color: rgb(255, 244, 230);
-  background-color: rgb(219, 190, 121); 
-  margin: 15px;
-  padding: 5px;
+img {
+  text-align: center;
+  padding-top: 10px;
+  height: auto;
+}
+
+ul, ol {
+  text-align: center;
+  list-style: inside;
+}
+/* aligns list item with text */
+
+h1, h2, h3 {
+  color: white;
   text-align: center;
 }
 
-h2 {
-  color: #EFEFED;
+hr {
+  margin: 50px;
+}
+/* makes horizontal rule shorter */
+
+header, footer {
+  background-color: #D9A630;
+  margin: 15px;
+  padding: 2px;
+  border-radius: 6px;
 }
 
 body {
@@ -23,33 +39,28 @@ main {
 background-color: #EFEFED;
 margin: 15px;
 padding: 5px;
+border-radius: 6px;
 }
-
-footer {
-  color: rgb(255, 244, 230);
-  background-color: rgb(219, 190, 121);
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
+/* background behind article */
 
 main article {
-   color: #EFEFED;
-  background-color: rgb(168, 191, 218);
-  margin: 15px;
-  padding: 5px 5px 10px;
+   color: white;
+  background-color:rgb(105, 149, 158);
+  margin: 30px;
+  padding: 5px 5px 10px 5px; 
   border-radius: 6px;
-  text-align: center;
+  text-align: center; 
 }
 
 h1, h2, footer, article {
   font-family: 'Roboto Mono';
 }
 
-header, footer, h2 {
+header, footer, h2, h3 {
   text-transform: lowercase;
 }
 
-.link {
-  color: rgb(252, 175, 168);
-}
+a:link {color: rgb(255, 238, 82);}
+a:visited {color: purple}
+a:hover {color: coral}
+/* link decoration */
